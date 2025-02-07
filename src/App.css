@@ -1,0 +1,47 @@
+h2,p {
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'GothoPro';
+    src: url('./assets/gothampro.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'GothoPro';
+    src: url('./assets/gothampro_bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'GothoPro', sans-serif;
+    font-weight: 400;
+  }
+  
+ 
+
+table th {
+    background-color: #f4f4f4;
+}
+
+table tr:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: #000
+}
+
+th, td {
+  border: 1px solid #ccc;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  position: relative;
+}
+
